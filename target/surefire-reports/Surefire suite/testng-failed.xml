@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Practice.hometest.HomepageVerificationTest">
+        <methods>
+          <include name="homepageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.hometest.HomepageVerificationTest -->
+      <class name="Practice.testng.getProductinfoTest">
+        <methods>
+          <include name="getProductinfo" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Practice.testng.getProductinfoTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

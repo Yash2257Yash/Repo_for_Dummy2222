@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.comcast.crm.listenerUtility.ListenerImplementationclass"></listener>
+</listeners>
+  <test parallel="classes" thread-count="3" name="456Test">
+    <classes>
+      <class name="All12TCusingTestNGIMplementation.CreateOppertunitiesusingTestNGpomImple"/>
+      <class name="All12TCusingTestNGIMplementation.CreateTicketusingTestngImple"/>
+      <class name="All12TCusingTestNGIMplementation.CreteOrgTestPOMusingTestNGimple"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
